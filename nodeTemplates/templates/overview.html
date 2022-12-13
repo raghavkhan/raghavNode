@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeJS</title>
+    <style>
+        /* fourth section(decorations for) */
+.wallpaper1{
+    background:url('../specialYouImages/wallpaper1.jpg') ;
+    height:8vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.decorationMiddle{
+    display:flex;
+justify-content: center;
+align-items: center;
+margin-left:2rem;
+margin-right:2rem;
+}
+
+.sectionDecoration{
+    display:flex;
+flex-direction:column;
+}
+.decorationBottom{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.decorationButton{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #E95850;
+    color:white;
+    border:none;
+    cursor: pointer;
+    height:4rem;
+    width:20rem;
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; */
+    border-radius:6.25rem;
+    font-size: 1.2rem;
+
+
+
+}
+
+/* try this separately out only decoration Image*/
+.decorationImage{
+    background: url('../specialYouImages/sliderImage1.webp');
+    height:16rem;
+    width:16rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius:10%;
+     margin:1rem; 
+}
+
+/* fifth section(best sellers) */
+.bestSellers{
+    display:flex;
+    flex-direction:column;
+    /* margin: */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #FEF8F4;
+
+
+}
+.bestSellersHeading{
+    text-align: center;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.bestSellersProducts {
+    display:flex;
+    justify-content: space-around;
+}
+.bestSellersImage{
+    background: url('../specialYouImages/sliderImage1.webp');
+    background-size: cover;
+    height:20rem;
+    width:15rem;
+    border-radius:10%;
+}
+.bestSellersBottom{
+    margin-top: 1.5rem;
+    margin-bottom:1.5rem;
+}
+
+    </style>
+</head>
+<body>
+    
+    
+    <!-- forth section(decorations for) -->
+<div class="decorationsFor">
+     <div class="decorationTop">
+         <div class="wallpaper1">
+             <h3 class="decorationText">Decorations For</h3>
+            </div>
+        </div>
+        <div class="decorationMiddle">
+        <div class="section1Decoration sectionDecoration">
+            <div class="decorationImage1 decorationImage"></div>
+            <div class="decorationImage2 decorationImage"></div>
+            <div class="decorationImage3 decorationImage"></div>
+        </div>
+        <div class="section2Decoration sectionDecoration">
+            <div class="decorationImage4 decorationImage"></div>
+            <div class="decorationImage5 decorationImage"></div>
+            <div class="decorationImage6 decorationImage"></div>
+        </div>
+        <div class="section3Decoration sectionDecoration">
+            <div class="decorationImage7 decorationImage"></div>
+            <div class="decorationImage8 decorationImage"></div>
+            <div class="decorationImage9 decorationImage"></div>
+        </div>
+        <div class="section4Decoration sectionDecoration">
+            <div class="decorationImage10 decorationImage"></div>
+            <div class="decorationImage11 decorationImage"></div>
+            <div class="decorationImage12 decorationImage"></div>
+        </div>
+    </div>
+    <div class="decorationBottom">
+        <button class="decorationButton">View All Decorations</button>
+    </div>
+</div>
+
+ <!-- fifth section(best sellers) -->
+ <div class="bestSellers">
+    <h2 class="bestSellersHeading">BEST SELLERS</h2>
+    <div class="bestSellersProducts">
+        <div class="bestSellersProduct bestSellersProduct1">
+            <div class="bestSellersImage"></div>
+            <div class="bestSellersText">kids birthday</div>
+            <h4 class="bestSellersPrice">₹399</h4>
+        </div>
+        <div class="bestSellersProduct bestSellersProduct2">
+            <div class="bestSellersImage"></div>
+            <div class="bestSellersText">happy birthday</div>
+            <h4 class="bestSellersPrice">₹599</h4>
+        </div>
+        <div class="bestSellersProduct bestSellersProduct3">
+            <div class="bestSellersImage"></div>
+            <div class="bestSellersText">birthday princess</div>
+            <h4 class="bestSellersPrice">₹699</h4>
+        </div>
+    </div>
+    <div class="bestSellersBottom">
+        <div class="shape">
+            <div class="rectangle"></div>
+            <div class="ellipse ellipse1"></div>
+            <div class="ellipse ellipse2"></div>
+            <div class="ellipse ellipse3"></div>
+            <div class="ellipse ellipse4"></div>
+        </div>
+    </div>
+</div>
+
+    </body>
+    </html>

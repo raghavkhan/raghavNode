@@ -1,0 +1,54 @@
+[
+    {
+        "id":"1",
+        "image":"../specialYouImages/circleImage1.jpg",
+        "title":"twoBalloon",
+        "description":"these are best balloons in the world",
+        "rate":"₹399",
+        "mrp":"₹500",
+        "bestPrice":"325",
+        "discount":"20%",
+        "rating":"4.0",
+        "peopleReview":"320",
+        "category":"birthday",
+        "size":{
+            "small":"20inch","medium":"30inch","large":"40inch"
+               },
+        "organic":true       
+    },
+    {
+        "id":"2",
+        "image":"../specialYouImages/circleImage2.jpg",
+        "title":"snowPartyBalloon",
+        "description":"these are also best balloons in the world",
+        "rate":"₹480",
+        "mrp":"₹600",
+        "bestPrice":"425",
+        "discount":"20%",
+        "rating":"4.0",
+        "peopleReview":"250",
+        "category":"birthday",
+        "size":{
+            "small":"20inch","medium":"30inch","large":"40inch"
+               },
+        "organic":false       
+    },
+    {
+        "id":"3",
+        "image":"../specialYouImages/circleImage3.jpg",
+        "title":"firstNightBalloon",
+        "description":"these are again best balloons in the world",
+        "rate":"₹820",
+        "mrp":"₹999",
+        "bestPrice":"650",
+        "discount":"20%",
+        "rating":"4.5",
+        "peopleReview":"410",
+        "category":"firstNight",
+        "size":{
+            "small":"20inch","medium":"30inch","large":"40inch"
+               },
+        "organic":true
+    }
+
+]
